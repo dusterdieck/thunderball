@@ -1,0 +1,44 @@
+[VTOL_EMG]
+	{
+	ID=18;
+	name=E.M.G.;
+	rendertype=4;		/* 2D bitmap */
+	color=1;			/* EMG bitmap */
+	lineofsight=1;
+	turret=0;
+
+//	model=plasma;
+
+	range=370;
+	reloadtime=.6;
+	weapontimer=1;
+	weaponvelocity=450;
+	//startvelocity=150;
+	//weaponacceleration=200;
+	sprayangle=1024;
+	areaofeffect=8;
+	burst=4;
+	burstrate=.1;
+	soundstart=armsml3;
+	soundhit=lasrhit1;
+	soundtrigger=1;
+	tolerance=6000;
+	pitchtolerance=12000;
+
+	startsmoke=1;
+
+	explosiongaf=fx;
+	explosionart=explode5;
+
+	waterexplosiongaf=fx;
+	waterexplosionart=h2oboom1;
+
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplashsm;
+
+	[DAMAGE]
+		{
+		default=11;
+		}
+	}
+

@@ -1,0 +1,33 @@
+[CORAMPH_WEAPON1]
+	{
+	ID=159;
+	name=Plasma Cannon;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	minbarrelangle=-35;
+
+	range=230;
+	reloadtime=1.9;
+	weaponvelocity=210;
+	areaofeffect=48;
+	soundstart=cannon1;
+	soundhit=xplomed3;
+
+	explosiongaf=fx;
+	explosionart=explode3;
+
+	waterexplosiongaf=fx;
+	waterexplosionart=h2o;
+
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplash;
+
+	startsmoke=1;
+
+	[DAMAGE]
+		{
+		default=80; //105
+		}
+	}
+

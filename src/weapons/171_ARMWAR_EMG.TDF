@@ -1,0 +1,38 @@
+[ARMWAR_EMG]
+	{
+	ID=171;
+	name=E.M.G.;
+	rendertype=4;
+	color=1;
+	lineofsight=1;
+	turret=1;
+	range=180;
+	reloadtime=.4;
+	weapontimer=1;
+	weaponvelocity=300;
+	sprayangle=1024;
+	areaofeffect=8;
+	burst=2;
+	burstrate=.2;
+	soundstart=armsml2;
+	soundhit=lasrhit1;
+	soundtrigger=1;
+	tolerance=5000;
+
+	startsmoke=1;
+
+	explosiongaf=fx;
+	explosionart=explode5;
+
+	waterexplosiongaf=fx;
+	waterexplosionart=h2oboom1;
+
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplashsm;
+
+	[DAMAGE]
+		{
+		default=12;
+		}
+	}
+

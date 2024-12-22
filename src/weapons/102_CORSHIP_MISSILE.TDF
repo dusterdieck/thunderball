@@ -1,0 +1,68 @@
+[CORSHIP_MISSILE]
+	{
+	ID=102;
+	name=Missiles;
+	rendertype=1;
+	lineofsight=1;
+	turret=1;
+
+	model=missile;
+
+	range=700;
+	reloadtime=2;
+	weapontimer=5;
+	weaponvelocity=450;
+	startvelocity=400;
+	weaponacceleration=121;
+	turnrate=30000;
+	areaofeffect=48;
+	metalpershot=0;
+
+	soundstart=rockhvy2;
+	soundhit=xplomed2;
+
+	firestarter=70;
+	smokedelay=.1;
+	guidance=1;
+	tracks=1;
+	selfprop=1;
+	smoketrail=1;
+	tolerance=8000;
+
+	explosiongaf=fx;
+	explosionart=explode3;
+
+	waterexplosiongaf=fx;
+	waterexplosionart=h2o;
+
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplash;
+
+	startsmoke=1;
+
+	[DAMAGE]
+		{
+		default=15;
+		ARMTHUND=111;
+		ARMBRAWL=111;
+		ARMPEEP=111;
+		ARMFIG=111;
+		ARMCA=111;
+		ARMACA=111;
+		ARMATLAS=111;
+		ARMPNIX=111;
+		ARMHAWK=111;
+		ARMLANCE=111;
+		CORFINK=111;
+		CORVENG=111;
+		CORVAMP=111;
+		CORHURC=111;
+		CORTITAN=111;
+		CORACA=111;
+		CORSHAD=111;
+		CORAPE=111;
+		CORCA=111;
+		CORVALK=111;
+		}
+	}
+

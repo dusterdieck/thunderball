@@ -1,0 +1,36 @@
+[CORKROG_FIRE]
+	{
+	ID=150;
+	name=Gauss Cannon;
+	rendertype=4;
+	lineofsight=1;
+	turret=1;
+	minbarrelangle=-15;
+
+	range=300;
+	reloadtime=1.6;
+	weaponvelocity=450;
+	areaofeffect=8;
+	soundstart=Krogun1;
+	soundhit=xplomed2;
+
+	tolerance=500;
+
+	explosiongaf=fx;
+	explosionart=explode5;
+
+	waterexplosiongaf=fx;
+	waterexplosionart=h2oboom1;
+
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplashsm;
+
+	startsmoke=1;
+
+	[DAMAGE]
+		{
+		default=480;
+		}
+	}
+
+

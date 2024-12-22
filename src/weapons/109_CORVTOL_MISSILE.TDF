@@ -1,0 +1,69 @@
+[CORVTOL_MISSILE]
+	{
+	ID=109;
+	name=Guided Missiles;
+	rendertype=1;
+	lineofsight=1;
+
+	model=missile;
+
+	range=502;
+	reloadtime=3;
+	weapontimer=5;
+	weaponvelocity=470;
+	startvelocity=425;
+	weaponacceleration=149;
+	turnrate=16384;
+	areaofeffect=48;
+	metalpershot=0;
+
+	soundstart=Rocklit3;
+	soundhit=xplosml2;
+
+	firestarter=70;
+	smokedelay=.1;
+	guidance=1;
+	tracks=1;
+	selfprop=1;
+	smoketrail=1;
+	tolerance=8000;
+
+	explosiongaf=fx;
+	explosionart=explode3;
+
+	waterexplosiongaf=fx;
+	waterexplosionart=h2o;
+
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplash;
+
+	startsmoke=1;
+
+	[DAMAGE]
+		{
+		default=46;
+		ARMTHUND=136;
+		ARMBRAWL=136;
+		ARMPEEP=136;
+		ARMFIG=136;
+		ARMCA=136;
+		ARMACA=136;
+		ARMATLAS=136;
+		ARMPNIX=136;
+		ARMHAWK=136;
+		ARMLANCE=136;
+		CORFINK=136;
+		CORVENG=136;
+		CORVAMP=136;
+		CORHURC=136;
+		CORTITAN=136;
+		CORACA=136;
+		CORSHAD=136;
+		CORAPE=136;
+		CORCA=136;
+		CORVALK=136;
+		}
+	}
+
+
+

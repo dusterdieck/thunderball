@@ -1,0 +1,58 @@
+[ARMAIR2AIRLASER]
+	{
+	ID=86;
+	name=Laser;
+	rendertype=0;
+	lineofsight=1;
+	turret=1;
+
+	range=600;
+	reloadtime=.4;
+	weaponvelocity=900;
+	areaofeffect=8;
+	duration=.01;
+	soundtrigger=1;
+
+	soundstart=lasrlit1;
+	soundhit=lashit;
+
+	firestarter=50;
+	beamweapon=1;
+	color=208;	/* Yellow */
+	color2=0;
+
+	explosiongaf=fx;
+	explosionart=explode5;
+
+	waterexplosiongaf=fx;
+	waterexplosionart=h2oboom1;
+
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplashsm;
+
+	[DAMAGE]
+		{
+		default=6;
+		ARMTHUND=32;
+		ARMBRAWL=32;
+		ARMPEEP=32;
+		ARMFIG=32;
+		ARMCA=32;
+		ARMACA=32;
+		ARMATLAS=32;
+		ARMPNIX=32;
+		ARMHAWK=32;
+		ARMLANCE=32;
+		CORFINK=32;
+		CORVENG=32;
+		CORVAMP=32;
+		CORHURC=32;
+		CORTITAN=32;
+		CORACA=32;
+		CORSHAD=32;
+		CORAPE=32;
+		CORCA=32;
+		CORVALK=32;
+		}
+	}
+

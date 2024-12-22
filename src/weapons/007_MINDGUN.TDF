@@ -1,0 +1,22 @@
+[MINDGUN]
+	{
+	ID=7;
+	name=Mind Gun;
+	rendertype=2;
+	lineofsight=1;
+
+	range=500;
+	reloadtime=1;
+	weapontimer=2;
+	weaponvelocity=91;
+	areaofeffect=16;
+	soundstart=phaser;
+	soundhit=explode;
+	unitsonly=1;
+
+	[DAMAGE]
+		{
+		default=100;
+		}
+	}
+

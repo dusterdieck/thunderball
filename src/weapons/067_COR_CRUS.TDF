@@ -1,0 +1,33 @@
+[COR_CRUS]
+	{
+	ID=67;
+	name=Cruiser Cannon;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+	minbarrelangle=-25;
+
+	range=1300;
+	reloadtime=3;
+	weaponvelocity=350;
+	areaofeffect=64;
+	soundstart=cannhvy1;
+	soundhit=xplomed2;
+
+	explosiongaf=fx;
+	explosionart=explode2;
+
+	waterexplosiongaf=fx;
+	waterexplosionart=h2o;
+
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplash;
+
+	startsmoke=1;
+
+	[DAMAGE]
+		{
+		default=220;
+		}
+	}
+

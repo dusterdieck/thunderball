@@ -1,0 +1,34 @@
+[CORE_ARTILLERY]
+	{
+	ID=59;
+	name=Plasma Cannon;
+	rendertype=4;
+	ballistic=1;
+	turret=1;
+
+	range=620;
+	reloadtime=2.95;
+	weaponvelocity=310;
+	areaofeffect=48;
+	soundstart=cannhvy2;
+	soundhit=xplomed4;
+	accuracy=2000;
+
+	explosiongaf=fx;
+	explosionart=explode3;
+
+	waterexplosiongaf=fx;
+	waterexplosionart=h2o;
+
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplash;
+
+	startsmoke=1;
+
+	[DAMAGE]
+		{
+		default=140;
+		}
+	}
+
+

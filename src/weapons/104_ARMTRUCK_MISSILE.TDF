@@ -1,0 +1,70 @@
+[ARMTRUCK_MISSILE]
+	{
+	ID=104;
+	name=Missiles;
+	rendertype=1;
+	lineofsight=1;
+	turret=1;
+
+	model=missile;
+
+	range=600;
+	reloadtime=2.5;
+	weapontimer=5;
+	weaponvelocity=540;
+	startvelocity=450;
+	weaponacceleration=141;
+	turnrate=30000;
+	areaofeffect=48;
+	metalpershot=0;
+
+	soundstart=rockhvy2;
+	soundhit=xplomed2;
+
+	firestarter=70;
+	smokedelay=.1;
+	guidance=1;
+	tracks=1;
+	selfprop=1;
+	smoketrail=1;
+	tolerance=8000;
+
+	explosiongaf=fx;
+	explosionart=explode3;
+
+	waterexplosiongaf=fx;
+	waterexplosionart=h2o;
+
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplash;
+
+	startsmoke=1;
+
+	[DAMAGE]
+		{
+		default=10;
+		ARMTHUND=90;
+		ARMBRAWL=90;
+		ARMPEEP=90;
+		ARMFIG=90;
+		ARMCA=90;
+		ARMACA=90;
+		ARMATLAS=90;
+		ARMPNIX=90;
+		ARMHAWK=90;
+		ARMLANCE=90;
+		CORFINK=90;
+		CORVENG=90;
+		CORVAMP=90;
+		CORHURC=90;
+		CORTITAN=90;
+		CORACA=90;
+		CORSHAD=90;
+		CORAPE=90;
+		CORCA=90;
+		CORVALK=90;
+			
+		}
+	}
+
+

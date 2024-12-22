@@ -1,0 +1,71 @@
+[CORTRUCK_MISSILE]
+	{
+	ID=105;
+	name=Missiles;
+	rendertype=1;
+	lineofsight=1;
+	turret=1;
+
+	model=missile;
+
+	range=600;
+	reloadtime=2.5;
+	weapontimer=5;
+	weaponvelocity=545;
+	startvelocity=450;
+	weaponacceleration=136;
+	turnrate=30000;
+	areaofeffect=48;
+	metalpershot=0;
+
+	soundstart=rockhvy2;
+	soundhit=xplomed2;
+
+	firestarter=70;
+	smokedelay=.1;
+	guidance=1;
+	tracks=1;
+	selfprop=1;
+	smoketrail=1;
+	tolerance=8000;
+
+	explosiongaf=fx;
+	explosionart=explode3;
+
+	waterexplosiongaf=fx;
+	waterexplosionart=h2o;
+
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplash;
+
+	startsmoke=1;
+
+	[DAMAGE]
+		{
+		default=10;
+		ARMTHUND=92;
+		ARMBRAWL=92;
+		ARMPEEP=92;
+		ARMFIG=92;
+		ARMCA=92;
+		ARMACA=92;
+		ARMATLAS=92;
+		ARMPNIX=92;
+		ARMHAWK=92;
+		ARMLANCE=92;
+		CORFINK=92;
+		CORVENG=92;
+		CORVAMP=92;
+		CORHURC=92;
+		CORTITAN=92;
+		CORACA=92;
+		CORSHAD=92;
+		CORAPE=92;
+		CORCA=92;
+		CORVALK=92;
+			
+		}
+	}
+
+
+

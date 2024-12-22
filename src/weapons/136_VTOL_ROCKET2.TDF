@@ -1,0 +1,45 @@
+[VTOL_ROCKET2]
+	{
+	ID=136;
+	name=Rockets;
+	rendertype=1;
+	lineofsight=1;
+
+	model=missile;
+
+	range=450;
+	reloadtime=2;
+	weapontimer=5;
+	weaponvelocity=350;
+	startvelocity=250;
+	weaponacceleration=131;
+	metalpershot=0;
+
+	turnrate=7680;
+	areaofeffect=48;
+
+	soundstart=rocklit3;
+	soundhit=explode;
+
+	firestarter=70;
+	smokedelay=.1;
+	selfprop=1;
+	smoketrail=1;
+	tolerance=8000;
+
+	explosiongaf=fx;
+	explosionart=explode3;
+
+	waterexplosiongaf=fx;
+	waterexplosionart=h2o;
+
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplash;
+
+	startsmoke=1;
+
+	[DAMAGE]
+		{
+		default=125;
+		}
+	}

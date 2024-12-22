@@ -1,0 +1,70 @@
+[CORKBOT_MISSILE]
+	{
+	ID=101;
+	name=Missiles;
+	rendertype=1;
+	lineofsight=1;
+	turret=1;
+
+	model=missile;
+
+	range=590;
+	reloadtime=2.5;
+	weapontimer=5;
+	weaponvelocity=650;
+	startvelocity=450;
+	weaponacceleration=104;
+	turnrate=33000;
+	areaofeffect=48;
+	metalpershot=0;
+
+	soundstart=rocklit1;
+	soundhit=xplosml2;
+
+	firestarter=70;
+	smokedelay=.1;
+	guidance=1;
+	tracks=1;
+	selfprop=1;
+	smoketrail=1;
+	tolerance=9000;
+
+	explosiongaf=fx;
+	explosionart=explode3;
+
+	waterexplosiongaf=fx;
+	waterexplosionart=h2o;
+
+	lavaexplosiongaf=fx;
+	lavaexplosionart=lavasplash;
+
+	startsmoke=1;
+
+	[DAMAGE]
+		{
+		default=7;
+		ARMTHUND=80;
+		ARMBRAWL=80;
+		ARMPEEP=80;
+		ARMFIG=80;
+		ARMCA=80;
+		ARMACA=80;
+		ARMATLAS=80;
+		ARMPNIX=80;
+		ARMHAWK=80;
+		ARMLANCE=80;
+		CORFINK=80;
+		CORVENG=80;
+		CORVAMP=80;
+		CORHURC=80;
+		CORTITAN=80;
+		CORACA=80;
+		CORSHAD=80;
+		CORAPE=80;
+		CORCA=80;
+		CORVALK=80;
+		}
+	}
+
+
+
