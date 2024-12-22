@@ -5,17 +5,17 @@
 	Side=ARM;
 	Objectname=ARMHAM;
 	Designation=ARM-KA;
-	Name=Hammer;
-	Description=Artillery Kbot;
+	Name=Artillery Kbot;
+	Description=;
 	FootprintX=2;
 	FootprintZ=2;
 	BuildCostEnergy=900;
 	BuildCostMetal=100;
-	MaxDamage=700;
+	MaxDamage=800;
 	MaxWaterDepth=12;
 	MaxSlope=14;
-	EnergyUse=0.6;
-	BuildTime=2340;
+	EnergyUse=0;
+	BuildTime=2000;
 	WorkerTime=0;
 	BMcode=1;
 	Builder=0;
@@ -29,7 +29,7 @@
 	MetalStorage=0;
 	ExplodeAs=BIG_UNITEX;
 	SelfDestructAs=BIG_UNIT;
-	Category=ARM KBOT MOBILE WEAPON NOTAIR NOTSUB CTRL_G CTRL_K CTRL_W NOTSHIP LEVEL1 ALL;
+	Category=KBOT CTRL_K MOBILE CTRL_G WEAPON CTRL_W NOTAIR NOTSUB NOTSHIP ALL;
 	TEDClass=KBOT;
 	Copyright=Copyright 1997 Humongous Entertainment. All rights reserved.;
 	Corpse=armham_dead;
@@ -50,13 +50,13 @@
 	ItalianName=Hammer;
 	ItalianDescription=Kbot da artilglieria;
 	canguard=1;
-	MaxVelocity=1.4;
-	BrakeRate=0.183105469;
+	MaxVelocity=1.5;
+	BrakeRate=0.15;
 	Acceleration=0.1;
-	TurnRate=995;
+	TurnRate=1000;
 	SteeringMode=2;
 	ShootMe=1;
-	EnergyMake=0.6;
+	EnergyMake=0;
 	DefaultMissionType=Standby;
 	maneuverleashlength=640;
 	MovementClass=TANKSH2;
@@ -67,4 +67,5 @@
 	wpri_badTargetCategory=VTOL;
 	NoChaseCategory=VTOL;
 	Ovradjust=1;
+	ActivateWhenBuilt=1;
 }

@@ -9,13 +9,13 @@
 	Description=Crawling Bomb;
 	FootprintX=1;
 	FootprintZ=1;
-	BuildCostEnergy=5473;
-	BuildCostMetal=61;
+	BuildCostEnergy=5000;
+	BuildCostMetal=60;
 	MaxDamage=185;
 	MaxWaterDepth=112;
 	MaxSlope=32;
 	EnergyUse=0.1;
-	BuildTime=7901;
+	BuildTime=7500;
 	WorkerTime=0;
 	BMcode=1;
 	Builder=0;
@@ -49,7 +49,7 @@
 	ItalianName=Invader;
 	ItalianDescription=Bomba a grappolo;
 	canguard=1;
-	MaxVelocity=1.4;
+	MaxVelocity=1.5;
 	BrakeRate=0.13;
 	Acceleration=0.11;
 	TurnRate=1400;

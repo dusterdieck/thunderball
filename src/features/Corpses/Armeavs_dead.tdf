@@ -1,0 +1,17 @@
+[armeavs_dead]
+	{
+	world=All Worlds;
+	description=Wreckage;
+	category=arm_corpses;
+	object=armeavs_dead;
+	footprintx=4;
+	footprintz=4;
+	height=15;
+	blocking=1;
+	hitdensity=100;
+	metal=100;
+	damage=183;
+	reclaimable=1;
+	featurereclamate=smudge01;
+        seqnamereclamate=tree1reclamate;
+	}

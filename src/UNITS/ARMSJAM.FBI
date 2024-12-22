@@ -5,15 +5,15 @@
 	Side=ARM;
 	Objectname=ARMSJAM;
 	Designation=ASD-SS;
-	Name=Escort;
-	Description=Radar Jammer Ship;
+	Name=Radar Jammer Ship;
+	Description=;
 	FootprintX=4;
 	FootprintZ=4;
-	BuildCostEnergy=1928;
-	BuildCostMetal=131;
+	BuildCostEnergy=1300;
+	BuildCostMetal=150;
 	MaxDamage=510;
-	EnergyUse=18;
-	BuildTime=6708;
+	EnergyUse=0;
+	BuildTime=2000;
 	WorkerTime=0;
 	BMcode=1;
 	Builder=0;
@@ -27,7 +27,7 @@
 	MetalStorage=0;
 	ExplodeAs=MEDIUM_UNITEX;
 	SelfDestructAs=MEDIUM_UNIT;
-	Category=ARM SHIP NOWEAPON JAM LEVEL2 NOTAIR NOTSUB CTRL_R;
+	Category=CTRL_R SHIP MOBILE NOWEAPON NOTAIR NOTLAND ALL;
 	TEDClass=SHIP;
 	Copyright=Copyright 1997 Humongous Entertainment. All rights reserved.;
 	Corpse=armsjam_dead;
@@ -46,13 +46,13 @@
 	ItalianName=Escort;
 	ItalianDescription=Nave - crea interferenze radar;
 	canguard=1;
-	MaxVelocity=2.7;
-	BrakeRate=0.016;
-	Acceleration=0.075;
+	MaxVelocity=3;
+	BrakeRate=0.1;
+	Acceleration=0.1;
 	TurnRate=400;
 	SteeringMode=1;
 	ShootMe=1;
-	EnergyMake=18;
+	EnergyMake=0;
 	DefaultMissionType=Standby;
 	maneuverleashlength=640;
 	MovementClass=BOATS4;
@@ -61,6 +61,6 @@
 	downloadable=1;
 	ActivateWhenBuilt=1;
 	onoffable=1;
-	RadarDistanceJam=700;
+	RadarDistanceJam=750;
 	Floater=1;
 	}

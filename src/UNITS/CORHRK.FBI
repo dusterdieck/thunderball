@@ -5,8 +5,8 @@
 	Side=ARM;
 	Objectname=CORHRK;
 	Designation=KA-R3;
-	Name=Dominator;
-	Description=Heavy Rocket Kbot;
+	Name=StarBurstRocket Kbot;
+	Description=;
 	FootprintX=2;
 	FootprintZ=2;
 	BuildCostEnergy=1300;
@@ -14,8 +14,8 @@
 	MaxDamage=620;
 	MaxWaterDepth=21;
 	MaxSlope=14;
-	EnergyUse=0.6;
-	BuildTime=5191;
+	EnergyUse=0;
+	BuildTime=4000;
 	WorkerTime=0;
 	BMcode=1;
 	Builder=0;
@@ -29,7 +29,7 @@
 	MetalStorage=0;
 	ExplodeAs=BIG_UNITEX;
 	SelfDestructAs=BIG_UNIT;
-	Category=CORE KBOT LEVEL2 WEAPON NOTAIR NOTSUB CTRL_W;
+	Category=KBOT CTRL_K MOBILE CTRL_G WEAPON CTRL_W NOTAIR NOTSUB NOTSHIP ALL;
 	TEDClass=KBOT;
 	Copyright=Copyright 1997 Humongous Entertainment. All rights reserved.;
 	Corpse=corhrk_dead;
@@ -56,7 +56,7 @@
 	TurnRate=1003;
 	SteeringMode=2;
 	ShootMe=1;
-	EnergyMake=0.6;
+	EnergyMake=0;
 	DefaultMissionType=Standby;
 	maneuverleashlength=640;
 	MovementClass=TANKSH2;

@@ -7,26 +7,26 @@
 	Designation=ARM-DWM;
 	Name=Commander;
 	Description=Commander;
-	FootprintX=2;
-	FootprintZ=2;
+	FootprintX=3;
+	FootprintZ=3;
 	BuildCostEnergy=7000;
 	BuildCostMetal=700;
-	MaxDamage=1420;
+	MaxDamage=2000;
 	MaxWaterDepth=35;
 	MaxSlope=20;
 	EnergyUse=0;
-	BuildTime=24048;
-	WorkerTime=200;
+	BuildTime=22000;
+	WorkerTime=400;
 	BMcode=1;
 	Builder=1;
 	ThreeD=1;
 	ZBuffer=1;
-	SightDistance=290;
-	RadarDistance=0;
+	SightDistance=120;
+	RadarDistance=300;
 	SoundCategory=ARM_COM;
 	ExplodeAs=DECOY_COMMANDER_BLAST;
 	SelfDestructAs=DECOY_COMMANDER_BLAST;
-	Category=ARM WEAPON NOTAIR NOTSUB CTRL_W;
+	Category=KBOT CTRL_K MOBILE CTRL_G WEAPON CTRL_W NOTAIR NOTSUB NOTSHIP ALL;
 	TEDClass=COMMANDER;
 	Copyright=Copyright 1997 Humongous Entertainment. All rights reserved.;
 	GermanName=Commander-Double;
@@ -46,10 +46,10 @@
 	ItalianName=Comandante Esca;
 	ItalianDescription=Comandante Esca;
 	canguard=1;
-	MaxVelocity=1.5;
-	BrakeRate=0.3;
-	Acceleration=0.15;
-	TurnRate=1044;
+	MaxVelocity=1.8;
+	BrakeRate=0.5;
+	Acceleration=0.2;
+	TurnRate=1500;
 	SteeringMode=2;
 	ShootMe=1;
 	DefaultMissionType=Standby;
@@ -57,7 +57,7 @@
 	MovementClass=TANKDS2;
 	Upright=1;
 	canattack=1;
-	Weapon1=ARMCOMLASER;
+	Weapon1=CORLEVLR_WEAPON;
 	downloadable=1;
 	wpri_badTargetCategory=VTOL;
 	BadTargetCategory=VTOL;
@@ -67,5 +67,6 @@
 	HideDamage=1;
 	ShowPlayerName=1;
 	CanReclamate=1;
-	Builddistance=100;
-	}
+	Builddistance=200;
+	SonarDistance=200;	
+}
